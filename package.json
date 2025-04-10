@@ -21,7 +21,6 @@
     "@xmldom/xmldom": "^0.8.6",
     "argparse": "~1.0.3",
     "base64-js": "^1.5.1",
-    "bluebird": "~3.4.0",
     "dingbat-to-unicode": "^1.0.1",
     "jszip": "^3.7.1",
     "lop": "^0.4.2",
@@ -51,8 +50,7 @@
   "scripts": {
     "pretest": "eslint lib test",
     "test": "mocha 'test/**/*.tests.js'",
-    "check-typescript": "tsc --noEmit lib/index.d.ts",
-    "prepare": "make mammoth.browser.min.js"
+    "check-typescript": "tsc --noEmit lib/index.d.ts"
   },
   "license": "BSD-2-Clause",
   "engines": {
